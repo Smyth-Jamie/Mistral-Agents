@@ -1,0 +1,9 @@
+[project]
+name = "project-coordinator"
+version = "0.1.0"
+description = "Coordinator agent that manages and monitors a team of AI agents, deployed Mistral-managed"
+requires-python = ">=3.12"
+dependencies = ["mistralai-agents==1.1.0"]
+
+[tool.uv]
+package = false
